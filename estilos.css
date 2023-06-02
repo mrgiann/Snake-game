@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+canvas {
+  border: 1px solid black;
+}
+
+.score {
+  font-family: Arial;
+  font-size: 20px;
+  color: black;
+  position: absolute;
+  z-index: 100;
+}
